@@ -1,0 +1,14 @@
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\bin\Debug\net9.0\Pecas.exe
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\bin\Debug\net9.0\Pecas.deps.json
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\bin\Debug\net9.0\Pecas.runtimeconfig.json
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\bin\Debug\net9.0\Pecas.dll
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\bin\Debug\net9.0\Pecas.pdb
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\Pecas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\Pecas.AssemblyInfoInputs.cache
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\Pecas.AssemblyInfo.cs
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\Pecas.csproj.CoreCompileInputs.cache
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\Pecas.dll
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\refint\Pecas.dll
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\Pecas.pdb
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\Pecas.genruntimeconfig.cache
+C:\Users\Alunos\Desktop\LPR\Aula2\Pecas\obj\Debug\net9.0\ref\Pecas.dll

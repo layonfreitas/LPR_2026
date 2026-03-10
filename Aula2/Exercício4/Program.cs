@@ -1,0 +1,29 @@
+﻿using System;
+
+namespace funcionario
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n_peca1,n_peca2, quantidade1, quantidade2;
+            float valor_peca1, valor_peca2, total;
+            Console.WriteLine("Digite o codigo da peça 1:");
+            n_peca1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a quantidade da peça 1:");
+            quantidade1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o valor da peça 1:");
+            valor_peca1 = float.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o codigo da peça 2:");
+            n_peca2 = int.Parse(Console.ReadLine()); 
+            Console.WriteLine("Digite a quantidade da peça 2:");
+            quantidade2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite o valor da peça 2:");
+            valor_peca2 = float.Parse(Console.ReadLine());
+            total = (quantidade1 * valor_peca1) + (quantidade2 * valor_peca2);
+            Console.WriteLine ($"VALOR A PAGAR: R${total:F2}");
+
+            
+        }
+    }
+}
