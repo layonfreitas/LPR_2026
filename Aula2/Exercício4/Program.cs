@@ -1,4 +1,5 @@
 ﻿using System;
+
 int n_peca1,n_peca2, quantidade1, quantidade2;
 float valor_peca1, valor_peca2, total;
 Console.WriteLine("Digite o codigo da peça 1:");

@@ -1,5 +1,4 @@
 ﻿using System;
-
 int funcionario;
 float horasTrabalhadas,valorHora, salario;
 Console.WriteLine("Digite a quantidade de funcionários: ");
