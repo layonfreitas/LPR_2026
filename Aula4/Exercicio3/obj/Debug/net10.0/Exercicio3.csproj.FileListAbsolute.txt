@@ -1,0 +1,15 @@
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\bin\Debug\net10.0\Exercicio3.exe
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\bin\Debug\net10.0\Exercicio3.deps.json
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\bin\Debug\net10.0\Exercicio3.runtimeconfig.json
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\bin\Debug\net10.0\Exercicio3.dll
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\bin\Debug\net10.0\Exercicio3.pdb
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\Exercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\Exercicio3.AssemblyInfoInputs.cache
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\Exercicio3.AssemblyInfo.cs
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\Exercicio3.csproj.CoreCompileInputs.cache
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\Exercicio3.sourcelink.json
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\Exercicio3.dll
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\refint\Exercicio3.dll
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\Exercicio3.pdb
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\Exercicio3.genruntimeconfig.cache
+C:\Users\layon\OneDrive\Desktop\LPR_2026\Aula4\Exercicio3\obj\Debug\net10.0\ref\Exercicio3.dll
