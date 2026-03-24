@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 int classe;
 Console.WriteLine("Escolha uma classe: \n 1 - Guerreira \n 2 - Mago \n 3 - Arqueiro");
 classe = int.Parse(Console.ReadLine());
