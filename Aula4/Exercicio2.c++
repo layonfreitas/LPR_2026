@@ -6,13 +6,13 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "pt_BR.utf8");
-    int numero1, numerro2;
+    int numero1, numero2;
     cout << "Digite o primeiro número: ";
     cin >> numero1;
     cout << "Digite o segundo número: ";
-    cin >> numerro2;
+    cin >> numero2;
 
-     if (numero1 % numerro2 == 0 || numerro2 % numero1 == 0 ) {
+     if (numero1 % numero2 == 0 || numero2 % numero1 == 0 ) {
         cout << "Os números são múltiplos." << endl;
      }
      else {
