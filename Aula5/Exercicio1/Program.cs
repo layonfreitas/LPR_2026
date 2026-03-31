@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 int qnt , contador = 0 , numero, nPar = 0;
 float acumulador = 0;
 Console.WriteLine("Digite a quantidade de números que deseja digitar: ");

@@ -1,13 +1,13 @@
-﻿using System;
-
+﻿
 Random numAleatorio = new Random();
 int valorInteiro = numAleatorio.Next(1, 100);
-int chute;
+int chute = 0;
 
 do
 {
     Console.WriteLine("Tente adivinhar o número entre 1 e 100: ");
     chute = int.Parse(Console.ReadLine());
+    chute++;
 
     if (chute < valorInteiro)
     {
@@ -19,5 +19,6 @@ do
     }
 
 } while (chute != valorInteiro);
+    Console.WriteLine($"Parabéns! Você acertou! Você acertou em {chute} tentativas.");
 
-Console.WriteLine("Parabéns! Você acertou o número!");
+
