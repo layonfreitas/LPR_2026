@@ -1,10 +1,10 @@
-# 👋 Seja bem-vindo!
+# Seja bem-vindo!
 
 Este repositório foi criado para armazenar minhas atividades da disciplina de **Linguagem de Programação (LPR)**.
 
 ---
 
-## 🗂 Organização
+## Organização
 
 As atividades estão separadas por pastas:
 
@@ -18,14 +18,14 @@ Cada pasta contém os códigos correspondentes **aos exercícios propostos**.
 
 ---
 
-## 🛠 Linguagens utilizadas
+## Linguagens utilizadas
 
-* C
+* C#
 * C++
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Praticar lógica de programação e desenvolver habilidades na resolução de problemas.
 
