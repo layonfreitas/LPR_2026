@@ -172,11 +172,11 @@ namespace Exercicio3
             static void exibirEquipe()
             {
                     Console.WriteLine("Equipe selecionada:");
-                    if (sel1) Console.WriteLine($"{Nomeheroi1} - {Poderheroi1} - Pontuação: {pontuacaoheroi1}");
-                    if (sel2) Console.WriteLine($"{Nomeheroi2} - {Poderheroi2} - Pontuação: {pontuacaoheroi2}");
-                    if (sel3) Console.WriteLine($"{Nomeheroi3} - {Poderheroi3} - Pontuação: {pontuacaoheroi3}");
-                    if (sel4) Console.WriteLine($"{Nomeheroi4} - {Poderheroi4} - Pontuação: {pontuacaoheroi4}");
-                    if (sel5) Console.WriteLine($"{Nomeheroi5} - {Poderheroi5} - Pontuação: {pontuacaoheroi5}");
+                    if (sel1) Console.WriteLine($"Nome: {Nomeheroi1} - Poder: {Poderheroi1} - Pontuação: {pontuacaoheroi1}");
+                    if (sel2) Console.WriteLine($"Nome: {Nomeheroi2} - Poder: {Poderheroi2} - Pontuação: {pontuacaoheroi2}");
+                    if (sel3) Console.WriteLine($"Nome: {Nomeheroi3} - Poder: {Poderheroi3} - Pontuação: {pontuacaoheroi3}");
+                    if (sel4) Console.WriteLine($"Nome: {Nomeheroi4} - Poder: {Poderheroi4} - Pontuação: {pontuacaoheroi4}");
+                    if (sel5) Console.WriteLine($"Nome: {Nomeheroi5} - Poder: {Poderheroi5} - Pontuação: {pontuacaoheroi5}");
             }
 
             static void menu()
