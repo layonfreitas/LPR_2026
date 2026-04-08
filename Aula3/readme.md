@@ -1,4 +1,4 @@
-# Aula 2 (GitHub e controle de versionamento)
+# Aula 3 (GitHub e controle de versionamento)
 
 ## Exercícios
 
