@@ -37,7 +37,7 @@ Crie uma função chamada menuPrincipal que exiba um menu com as opções dispon
 
 ---
 
-## Oobjetivo
+## Objetivo
 
 Aprender a paradigma funcional como uma maneira de programar de forma mais eficiente, usando:
  * Funções
