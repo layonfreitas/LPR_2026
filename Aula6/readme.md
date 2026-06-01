@@ -1,46 +1,47 @@
-# Aula 6 (Funções)
-
-## Exercícios
-
-### Exercício 1 (C++)
-
-Construa uma função em C++ que retorne o reverso de um número inteiro.
-
-### Exercício 2 (C++)
-
-Construa um algoritmo em C++ que agrupe em funções os exercícios 1, 3 e 4 da tarefa de estruturas de repetições. Cada exercício deve estar contido em uma função separada. Defina os parâmetros de modo eficiente e generalista. Construa um menu na função main.
-
-### Exercício 3 (C#)
-
-Desenvolva um programa em C# que simule um sistema de seleção de heróis da Marvel para uma equipe.
-
-a) Cadastro de Heróis:
-Crie uma função chamada cadastrarHeroi que permita ao usuário inserir o nome, poder e pontuação de um herói. A função deve solicitar essas informações e armazená-las em variáveis. O programa deve permitir o cadastro de até 5 heróis.
-
-b) Seleção de Equipe:
-Crie uma função chamada selecionarEquipe que permita ao usuário selecionar heróis para formar sua equipe. A função deve exibir os heróis cadastrados e permitir a escolha de três heróis.
-
-c) Pontuação Total da Equipe:
-Crie uma função chamada calcularPontuacaoTotal que calcule a soma das pontuações dos heróis selecionados.
-
-d) Exibição da Equipe:
-Crie uma função chamada exibirEquipe que mostre os heróis selecionados, seus poderes e a pontuação total da equipe.
-
-e) Menu:
-Crie uma função chamada menuPrincipal que exiba um menu com as opções disponíveis e execute a funcionalidade escolhida pelo usuário.
-
-#### Requisitos adicionais:
-
-* O programa deve continuar em execução até que o usuário escolha sair
-* Utilizar apenas variáveis locais
-* Não utilizar classes, vetores ou listas
+# 📚 Aula 6 — Funções
 
 ---
 
-## Objetivo
+## 🎯 Objetivo
 
-Aprender a paradigma funcional como uma maneira de programar de forma mais eficiente, usando:
- * Funções
- * Escopo de variáveis
- * Retorno
- * Parâmetros
+Aprender o paradigma funcional como uma maneira de programar de forma mais eficiente, usando:
+
+* 🔧 Funções
+* 📦 Escopo de variáveis
+* ↩️ Retorno
+* 📥 Parâmetros
+
+---
+
+## 📝 Exercícios
+
+### Exercício 1 — Reverso de número inteiro
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+Construir uma função que receba um número inteiro e retorne o seu reverso.
+
+---
+
+### Exercício 2 — Menu com funções agrupadas
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+Agrupar os exercícios 1, 3 e 4 da Aula 5 em funções separadas, com parâmetros eficientes e generalistas, e construir um menu na função `main`.
+
+---
+
+### Exercício 3 — Sistema de heróis Marvel
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+
+Simular um sistema de seleção de heróis para uma equipe, composto pelas funções:
+
+| Função | Descrição |
+|--------|-----------|
+| `cadastrarHeroi()` | Cadastra nome, poder e pontuação de até 5 heróis |
+| `selecionarEquipe()` | Exibe os heróis e permite escolher 3 para a equipe |
+| `calcularPontuacaoTotal()` | Calcula a soma das pontuações dos heróis selecionados |
+| `exibirEquipe()` | Mostra os heróis, poderes e pontuação total da equipe |
+| `menuPrincipal()` | Exibe o menu e executa a funcionalidade escolhida |
+
+> ⚠️ **Requisitos:** apenas variáveis locais, sem classes, vetores ou listas. O programa deve continuar em execução até o usuário sair.
+
+---
