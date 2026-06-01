@@ -1,33 +1,51 @@
-# Aula 5 (Estruturas de repetição)
-
-## Exercícios
-
-### Exercício 1(C#)
-
-WHILE: Construa um algoritmo que calcule a média aritmética de um conjunto de números pares fornecidos pelo usuário. O usuário deve fornecer primeiro a quantidade de números que serão digitados, e em seguida, os números considerados na média. O usuário pode digitar números ímpares, que devem ser ignorados. Por exemplo, no caso da tabela abaixo, o 5 informa que serão digitados 5 números (2 7 8 6 10), e para a média devem ser considerados apenas os números pares (2, 8, 6 e 10) ignorando o número 7 digitado.
-
-
-### Exercício 2(C#)
-
-DO WHILE: Construa um algoritmo de adivinhação de números. Com as linhas abaixo, o algoritmo gerará um número inteiro aleatório de 1 a 100:
-
-O seu trabalho é elaborar um algoritmo em que o usuário possa digitar números no console até acertar o número inteiro aleatório valorInteiro, de 1 a 100. A cada chute, o programa deve responder com “chutou alto”, “chutou baixo” ou “acertou”. Após acertar, deve ser mostrado quantas tentativas foram usadas para descobrir o número
-
-### Exercício 3(C#)
-
-FOR: Elabore um algoritmo que calcule a soma de todos os números ímpares múltiplos de 3 que se encontrem no conjunto dos números de 50 a 500
-
-### Exercício 4(C++)
-
-ESCOLHA A MELHOR ESTRUTURA DE REPETIÇÃO: Solicite ao usuário para inserir um número e calcule a soma dos dígitos do quadrado desse número. Por exemplo, se o número fornecido for 123, calcule 123² = 15129 e então a soma dos seus dígitos: 1 + 5 + 1 + 2 + 9 = 18.
-
-### Exercício 4(C++)
-
-ESCOLHA A MELHOR ESTRUTURA DE REPETIÇÃO: Crie um programa que simula o treinamento de um Jedi. O usuário deve inserir o número de horas de treinamento por dia. O programa deve calcular o total de horas de treinamento em uma semana, desconsiderando sábados e domingos, e informar quantos dias, semanas e meses seriam necessários para alcançar o total de 1000 horas de treinamento. Considere 1 mês = 4,5 semanas.
+# 📚 Aula 5 — Estruturas de repetição
 
 ---
 
-## Objetivo
+## 🎯 Objetivo
 
-Aprender a implementação das lógicas “while”, “do while” e “for” e saber qual usar
+Aprender a implementação das lógicas `while`, `do while` e `for` e saber qual usar.
 
+---
+
+## 📝 Exercícios
+
+### Exercício 1 — Média de números pares
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+`while`
+
+O usuário informa a quantidade de números e os digita em seguida. O algoritmo deve calcular a média aritmética considerando apenas os números pares, ignorando os ímpares.
+
+---
+
+### Exercício 2 — Adivinhação de número
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+`do while`
+
+O programa gera um número aleatório de 1 a 100. O usuário chuta até acertar, recebendo dicas de "chutou alto" ou "chutou baixo" a cada tentativa. Ao acertar, exibe o número de tentativas usadas.
+
+---
+
+### Exercício 3 — Soma de ímpares múltiplos de 3
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+`for`
+
+Calcular a soma de todos os números ímpares múltiplos de 3 no intervalo de 50 a 500.
+
+---
+
+### Exercício 4 — Soma dos dígitos do quadrado
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+`melhor estrutura de repetição`
+
+O usuário insere um número, o programa calcula seu quadrado e soma todos os dígitos do resultado. Ex: 123² = 15129 → 1+5+1+2+9 = 18.
+
+---
+
+### Exercício 5 — Treinamento Jedi
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+`melhor estrutura de repetição`
+
+O usuário informa as horas de treino por dia. O programa calcula o total semanal (dias úteis) e informa quantos dias, semanas e meses seriam necessários para atingir 1000 horas. *(1 mês = 4,5 semanas)*
+
+---
