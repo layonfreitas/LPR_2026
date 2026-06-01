@@ -1,22 +1,32 @@
-# Aula 4 (Estruturas de seleção)
-
-## Exercícios
-
-### Exercício 1(C#)
-
-Fazer um programa para ler um número inteiro, e depois dizer se este número é par ou não.
-
-### Exercício 2(C++)
-
-Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos", indicando se os valores lidos são múltiplos entre si. Atenção: os números podem ser digitados em ordem crescente ou decrescente.
-
-### Exercício 3(C#)
-
-Suponha que você está desenvolvendo um jogo de RPG. Você é responsável por implementar a mecânica de habilidades especiais para diferentes classes de personagens. Cada classe tem suas próprias habilidades especiais. Crie um programa que permita ao jogador escolher uma classe de personagem e, em seguida, exiba suas habilidades especiais correspondentes. 
+# 📚 Aula 4 — Estruturas de seleção
 
 ---
 
-## Objetivo
+## 🎯 Objetivo
 
-Aprender a implementação das lógicas “If” e “Switch” e saber qual usar
+Aprender a implementação das lógicas `if` e `switch` e saber qual usar.
 
+---
+
+## 📝 Exercícios
+
+### Exercício 1 — Par ou ímpar
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+
+Ler um número inteiro e informar se ele é par ou não.
+
+---
+
+### Exercício 2 — Múltiplos
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+Ler dois valores inteiros A e B e exibir se são múltiplos entre si, independente da ordem de digitação.
+
+---
+
+### Exercício 3 — RPG: habilidades especiais
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+
+Permitir ao jogador escolher uma classe de personagem de RPG e exibir suas habilidades especiais correspondentes.
+
+---
