@@ -16,6 +16,7 @@ As atividades estão separadas por pastas, uma para cada aula:
 | 📁 [Aula4](./Aula4) | Estruturas de seleção |
 | 📁 [Aula5](./Aula5) | Estruturas de repetição |
 | 📁 [Aula6](./Aula6) | Funções |
+| 📁 [Aula7](./Aula7) | Estruturas de dados avançadas |
 
 > Cada pasta contém os códigos correspondentes **aos exercícios propostos**.
 
