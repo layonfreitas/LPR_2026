@@ -36,34 +36,41 @@ namespace Exercicio3
                 {
                     Console.WriteLine("Voce saiu");
                 }
-                else if ((cidade1 == "Vitória" && cidade2 == "Belo Horizonte") || (cidade1 == "Belo Horizonte" && cidade2 == "Vitória")){
-                    Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[0, 1]}");
-                }
-                else if ((cidade1 == "Vitória" && cidade2 == "Rio de Janeiro") || (cidade1 == "Rio de Janeiro" && cidade2 == "Vitória"))
+                else
                 {
-                    Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[0, 2]}");
-                }
-                else if ((cidade1 == "Vitória" && cidade2 == "São Paulo") || (cidade1 == "São Paulo" && cidade2 == "Vitória"))
-                {
-                    Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[0, 3]}");
-                }
-                else if ((cidade1 == "Belo Horizonte" && cidade2 == "Rio de Janeiro") || (cidade1 == "Rio de Janeiro" && cidade2 == "Belo Horizonte"))
-                {
-                    Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[1, 3]}");
-                }
-                else if ((cidade1 == "Belo Horizonte && cidade2 == São Paulo") || (cidade1 == "São Paulo" && cidade2 == "Belo Horizonte"))
-                {
-                    Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[1, 3]}");
-                }
-                else if ((cidade1 == "Rio de Janeiro" && cidade2 == "São Paulo") || (cidade1 == "São Paulo" && cidade2 == "Rio de Janeiro"))
-                {
-                    Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[2, 3]}");
-                }
-                else 
-                {
-                    Console.WriteLine("Cidade não encontrada");
+                    MostrarDistancia(cidade1, cidade2, distancia);
                 }
 
-        }
+        }   
     }
+    static void MostrarDistancia(string cidade1, string cidade2, int[,] distancia){
+    if ((cidade1 == "Vitória" && cidade2 == "Belo Horizonte") || (cidade1 == "Belo Horizonte" && cidade2 == "Vitória"))
+    {
+        Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[0, 1]} km");
+    }
+    else if ((cidade1 == "Vitória" && cidade2 == "Rio de Janeiro") || (cidade1 == "Rio de Janeiro" && cidade2 == "Vitória"))
+    {
+        Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[0, 2]} km");
+    }
+    else if ((cidade1 == "Vitória" && cidade2 == "São Paulo") || (cidade1 == "São Paulo" && cidade2 == "Vitória"))
+    {
+        Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[0, 3]} km");
+    }
+    else if ((cidade1 == "Belo Horizonte" && cidade2 == "Rio de Janeiro") || (cidade1 == "Rio de Janeiro" && cidade2 == "Belo Horizonte"))
+    {
+        Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[1, 2]} km");
+    }
+    else if ((cidade1 == "Belo Horizonte" && cidade2 == "São Paulo") || (cidade1 == "São Paulo" && cidade2 == "Belo Horizonte"))
+    {
+        Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[1, 3]} km");
+    }
+    else if ((cidade1 == "Rio de Janeiro" && cidade2 == "São Paulo") || (cidade1 == "São Paulo" && cidade2 == "Rio de Janeiro"))
+    {
+        Console.WriteLine($"A distancia entre {cidade1} e {cidade2} é {distancia[2, 3]} km");
+    }
+    else
+    {
+        Console.WriteLine("Cidade não encontrada");
+    }
+}
 }}
