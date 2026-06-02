@@ -6,19 +6,8 @@ namespace Exercicio3
     {
         static void Main(string[] args)
         {
-            int[,] distancia = new int[4, 4];
-            distancia[1, 0] = 524;
-            distancia[2, 0] = 521;
-            distancia[3, 0] = 882;
-            distancia[0, 1] = 524;
-            distancia[2, 1] = 434;
-            distancia[3, 1] = 586;
-            distancia[0, 2] = 521;
-            distancia[1, 2] = 434;
-            distancia[3, 2] = 429;
-            distancia[0, 3] = 882;
-            distancia[1, 3] = 586;
-            distancia[2, 3] = 429;
+            int[,] distancia = {{0, 524, 521, 882}, {524, 0, 434, 586}, {521, 434, 0, 429}, {882, 586, 429, 0}};
+            
 
             string cidade1, cidade2;
             cidade1 = "1";
