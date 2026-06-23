@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pecas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e0ad79092830076a1b346234be550fbcdc31ffc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bd575afd8376e7d20325615786f2368160bb856")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pecas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pecas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

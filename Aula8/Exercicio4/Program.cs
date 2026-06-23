@@ -10,7 +10,7 @@ namespace Exercicio4
         public bool Selecionado;
     }
 
-    class Program
+class Program
     {
         static Heroi[] herois = new Heroi[5];
         static int quantidadeHerois = 0;
