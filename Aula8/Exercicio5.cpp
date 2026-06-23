@@ -33,28 +33,16 @@ void cadastrarChamado(){
     else{
         cout << "Numero do chamado: ";
         cin >> chamados[quantidadeChamados].numero;
-        
-
         cout << "Prioridade 1-Baixa, 2-Media, 3-Alta: ";
         cin >> chamados[quantidadeChamados].prioridade;
-       
-
         cout << "Solicitante: ";
         cin >> chamados[quantidadeChamados].solicitante;
-        
-
         cout << "Setor: ";
         cin >> chamados[quantidadeChamados].setor;
-        
-
         cout << "Descricao: ";
         cin >> chamados[quantidadeChamados].descricao;
-        
-
         chamados[quantidadeChamados].status = "Aberto";
-
         cout << "Chamado cadastrado" << endl;
-
         quantidadeChamados++;
     }
 }
@@ -110,14 +98,18 @@ void estatisticas(){
     int abertos = 0, emAndamento = 0, resolvidos = 0, cancelados = 0;
 
     for(int i = 0; i < quantidadeChamados; i++){
-        if(chamados[i].status == "Aberto")
+        if(chamados[i].status == "Aberto"){
             abertos++;
-        else if(chamados[i].status == "Em andamento")
+        }
+        else if(chamados[i].status == "Em andamento"){
             emAndamento++;
-        else if(chamados[i].status == "Resolvido")
+        }
+        else if(chamados[i].status == "Resolvido"){
             resolvidos++;
-        else if(chamados[i].status == "Cancelado")
+        }
+        else if(chamados[i].status == "Cancelado"){
             cancelados++;
+        }
     }
 
     cout << "Abertos: " << abertos << endl;
@@ -134,7 +126,7 @@ int main(){
         cout << "2 - Listar chamados" << endl;
         cout << "3 - Atualizar status" << endl;
         cout << "4 - Estatisticas" << endl;
-        cout << "0 - Sair" << endl;
+        cout << "5- Sair" << endl;
         cout << "Opcao: ";
         cin >> opcao;
 
@@ -146,10 +138,10 @@ int main(){
             atualizarStatus();
         else if(opcao == 4)
             estatisticas();
-        else if(opcao != 0)
+        else if(opcao != 5)
             cout << "Opcao invalida" << endl;
 
-    } while(opcao != 0);
+    } while(opcao != 5);
 
     return 0;
 }

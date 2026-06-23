@@ -25,9 +25,9 @@ namespace Exercicio4
             Console.Write("Quantos heróis deseja cadastrar (1 a 5)? ");
             quantidadeHerois = int.Parse(Console.ReadLine());
 
-            while (quantidadeHerois < 1 || quantidadeHerois > 3)
+            while (quantidadeHerois < 1 || quantidadeHerois > 5)
             {
-                Console.Write("Digite um valor entre 1 e 3: ");
+                Console.Write("Digite um valor entre 1 e 5: ");
                 quantidadeHerois = int.Parse(Console.ReadLine());
             }
 
