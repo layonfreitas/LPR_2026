@@ -16,17 +16,9 @@ Explorar as estruturas de dados avançadas Lista e Dicionário, compreendendo se
 
 > São 8 exercícios no total. Resolva **4 em C++** e **4 em C#**.
 
-### Exercício 0 — Organização da tarefa
-`obrigatório`
-
-Criar o diretório `LPR/Aula9` no repositório local, adicionar descrição no `readme.md` e responder ao questionário da aula.
-
-🔗 Questionário: https://forms.gle/dHFxmJiCJ9fVjXcc8
-
----
 
 ### Exercício 1 — Cadastro de notas
-`iniciante` `opcional`
+
 
 Solicitar 5 notas ao usuário e armazená-las em uma **lista**. Exibir:
 
@@ -38,7 +30,7 @@ Solicitar 5 notas ao usuário e armazená-las em uma **lista**. Exibir:
 ---
 
 ### Exercício 2 — Lista de nomes por tamanho
-`intermediário`
+
 
 Construir uma **lista** de X nomes aleatórios. A saída deve ser exibida em linhas, ordenadas por tamanho (do menor para o maior), respeitando a ordem de digitação para nomes de mesmo tamanho.
 
@@ -49,7 +41,7 @@ Construir uma **lista** de X nomes aleatórios. A saída deve ser exibida em lin
 ---
 
 ### Exercício 3 — Números ordenados e filtrados
-`intermediário`
+
 
 Construir uma **lista** de 100 números aleatórios.
 
@@ -60,7 +52,7 @@ Construir uma **lista** de 100 números aleatórios.
 ---
 
 ### Exercício 4 — Ranking de pilotos
-`avançado` `opcional`
+
 
 Criar uma `struct Piloto` com os campos `Nome`, `Equipe` e `Pontuação`, armazenados em uma **lista**. Implementar as funções:
 
@@ -76,14 +68,14 @@ Criar uma `struct Piloto` com os campos `Nome`, `Equipe` e `Pontuação`, armaze
 ---
 
 ### Exercício 5 — Gêneros de jogos
-`iniciante` `opcional`
+
 
 Utilizar um **dicionário** para armazenar jogos (chave) e seus gêneros (valor). Cadastrar pelo menos 5 jogos, buscar o gênero a partir do nome informado e exibir mensagem caso o jogo não esteja cadastrado.
 
 ---
 
 ### Exercício 6 — Idades em dicionário
-`intermediário`
+
 
 Construir um **dicionário** de X pares chave-valor (nome → idade).
 
@@ -94,7 +86,7 @@ Construir um **dicionário** de X pares chave-valor (nome → idade).
 ---
 
 ### Exercício 7 — Populações em dicionário
-`intermediário`
+
 
 Construir um **dicionário** de X pares chave-valor (cidade → população).
 
@@ -105,7 +97,7 @@ Construir um **dicionário** de X pares chave-valor (cidade → população).
 ---
 
 ### Exercício 8 — Sistema de biblioteca
-`avançado` `opcional`
+
 
 Criar uma `struct Livro` com os campos `Título`, `Autor`, `Ano de publicação` e `Quantidade disponível`, armazenada em um **dicionário** (chave: código do livro → valor: struct Livro). Implementar as funções:
 
